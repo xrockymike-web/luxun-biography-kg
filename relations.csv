@@ -1,0 +1,13 @@
+﻿relation_id,name_en,name_zh,category_zh,domain_constraint
+R001,Creation,创作,创作关系,PERSON->WORK: 某人创作了某作品
+R002,Association,交往,社交关系,PERSON->PERSON: 两人之间有社交往来
+R003,Residence,居住,位置关系,PERSON->PLACE: 某人居住在某地
+R004,Occurrence,发生于,事件时空关系,EVENT->PLACE/PERIOD: 某事件发生在某地或某时期
+R005,Participation,参与,参与关系,PERSON->EVENT: 某人参与了某事件
+R006,Affiliation,属于,归属关系,ENTITY->ORG/PERIOD: 某实体属于某组织或时期
+R007,Mention,提及,引用关系,WORK->ENTITY: 某作品提及了某实体
+R008,Containment,包含,组成关系,WORK->CHARACTER: 某作品包含了某角色
+R009,Influence,影响,影响关系,PERSON/CONCEPT->PERSON: 某人或思想影响了某人
+R010,Opposition,对立,冲突关系,PERSON->PERSON: 两人之间有对立或论战关系
+R011,Mentorship,师生,师从关系,PERSON->PERSON: 某人师从于某人
+R012,Kinship,亲属,家庭关系,PERSON->PERSON: 两人之间有亲属关系
